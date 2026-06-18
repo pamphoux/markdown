@@ -40,7 +40,7 @@ Pas encore eu le temps de regarder pour Window$
 
 Les versions des différents EXE PCSoft (Windev, HFSQL, ODBC) doivent **IMPÉRATIVEMENT** avoir les numéros de version interne suivant si on utilise la release 28 :
 
-![windevexpressversion](/home/pierre/Workspace/Doc/img/windevexpressversion.png)
+![windevexpressversion](https://85.215.170.153/img/md/windevexpressversion.png)
 
 Windev Express <mark>28</mark> Version Interne [90F280094e](https://pcsoft.fr/windev/WD-Express.htm) **WDEXPRESSFR.exe**
 
