@@ -39,7 +39,7 @@ Pas encore eu le temps de regarder pour Window$
 ## Fichiers nécessaires pour le deroulé des scénarios
 
 Les versions des différents EXE PCSoft (Windev, HFSQL, ODBC) doivent **IMPÉRATIVEMENT** avoir les numéros de version interne suivant si on utilise la release 28 :
-![](https://drive.google.com/file/d/15uO6oTDuULmcT2z87fLikOqZPOqocsuL)
+![](https://drive.google.com/drive-viewer/AKGpihabv9Oe-g5aFYfYvrusRr3Lp85-DLCM1WeGCQ3hI7Y5mmrrz08l_SXFdYXRCCPKpU1KizVFCm92T4RdNIgqIvro8OF9-kc5FYQ=w1920-h946-rw-v1?auditContext=forDisplay)
 ![](https://85.215.170.153/img/md/win.jpg)
 ![](https://85.215.170.153/img/md/win.jpg)
 
