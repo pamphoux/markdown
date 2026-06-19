@@ -220,3 +220,8 @@ Création
 iodbctest "DSN=BOSS;UID=admin;PWD=Admin1234*;Database=sdea10"
 
 CREATE TABLE dd_dossier (id_dossier INTEGER PRIMARY KEY AUTO_INCREMENT,lb_designation VARCHAR(50) NOT NULL) GO
+
+https://package.windev.com/pack/wx27/wx27_104h/fr/commun/HFSQL27INSTALL104.exe
+https://package.windev.com/pack/wx27/wx27_104h/fr/commun/ODBC27PACK104h.exe
+https://package.windev.com/pack/
+https://package.windev.com/pack/wx28/wx28_95g/fr/commun/HFSQL28INSTALL094e.exe
