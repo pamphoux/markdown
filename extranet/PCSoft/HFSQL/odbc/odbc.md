@@ -65,6 +65,35 @@ Le driver est disponible en lecture et en
 Le driver ODBC pour HFSQL Classic et HFSQL
  Client/Serveur est un driver ODBC de niveau 3.
 
+### Installation des paquets complémentaires
+[Link](https://doc.pcsoft.fr/fr-FR/?9000160)
+
+
+
+```
+sudo apt update && sudo apt upgrade -y
+sudo apt install libiodbc2-dev  
+sudo apt install iodbc
+sudo apt install libiodbc2 
+```
+
+#### Programmes Installés
+
+###### iodbctest
+
+```
+iodbctest --help
+```
+
+`iODBC Demonstration program
+This program shows an interactive SQL processor`
+
+`Usage:
+ iodbctest ["DSN=xxxx;UID=xxxx;PWD=xxxx"]`
+
+###### iodbcadm-gtk
+#### Installation du manager [iODBC](https://www.iodbc.org/dataspace/doc/iodbc/wiki/iodbcWiki/WelcomeVisitors)
+
 [Lien vers la Doc](https://doc.pcsoft.fr/fr-FR/search2.awp?origin=browse&cat=gestion-bases-donnees,367)
 
 ```
@@ -96,34 +125,7 @@ sudo vi /etc/odbcinst.ini
 Description = HFSQL iODBC Driver
 Driver = /home/pierre/Workspace/PCSoft/ODBC/wxpack_iodbclinux313016/wd310hfo64.so`
 
-### Installation des paquets complémentaires
 
-[Link](https://doc.pcsoft.fr/fr-FR/?9000160)
-
-#### Installation du manager [iODBC](https://www.iodbc.org/dataspace/doc/iodbc/wiki/iodbcWiki/WelcomeVisitors)
-
-```
-sudo apt update && sudo apt upgrade -y
-sudo apt install libiodbc2-dev  
-sudo apt install iodbc
-sudo apt install libiodbc2 
-```
-
-#### Programmes Installés
-
-###### iodbctest
-
-```
-iodbctest --help
-```
-
-`iODBC Demonstration program
-This program shows an interactive SQL processor`
-
-`Usage:
- iodbctest ["DSN=xxxx;UID=xxxx;PWD=xxxx"]`
-
-###### iodbcadm-gtk
 
 ![](/home/pierre/.config/marktext/images/2026-06-13-18-41-46-image.png)
 
