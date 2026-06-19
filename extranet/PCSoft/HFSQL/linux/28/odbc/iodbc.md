@@ -1,4 +1,4 @@
-##Pilote ODBC pour linux 
+## Pilote ODBC pour linux 
 
 libiodbc2 entre en conflit avec unixodbc
 ```sudo apt remove --purge unixodbc-dev```
@@ -15,4 +15,7 @@ Les programmes suivants sont installés:
 - iodbctest : interface CLI de requêtes (SELECT, INSERT, UPDATE, DELETE, etc ...)
 - iodbcadm-gtk (outil de config graphique de la DNS)
 
-## Les fichiers de config ODBC
+### Les fichiers de config ODBC
+#### Pour tous les users
+- /etc/odbcinst.ini
+- /etc/odbc.ini
