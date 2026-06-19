@@ -34,16 +34,42 @@ Driver = /home/pierre/Workspace/PCSoft/ODBC/ODBC28LINUX64PACK095g/wd280hfo64.so
 
 #### Par user
 cat ~/.odbc.ini
+`Exemple avec 3 DSN
+- VM Locale
+- Moteur HFSQL Linux
+- VM VPS Ionos
 ```
 [ODBC Data Sources]
 WIN2025 = HFSQL
+DEBIAN13 = HFSQL
+BOSS = HFSQL
+
 [WIN2025]
+Driver      = /home/pierre/Workspace/PCSoft/ODBC/ODBC28LINUX64PACK095g/wd280hfo64.so
+Database    = syme05
+PWD         = Admin1234*
+Server Name = localhost
+Server Port = 49001
+UID         = admin
+
+
+[DEBIAN13]
 Driver      = /home/pierre/Workspace/PCSoft/ODBC/ODBC28LINUX64PACK095g/wd280hfo64.so
 Database    = syme05
 PWD         = abder
 Server Name = localhost
 Server Port = 49000
 UID         = abder
+
+
+[BOSS]
+Driver      = /home/pierre/Workspace/PCSoft/ODBC/ODBC28LINUX64PACK095g/wd280hfo64.so
+Database    = syme05
+PWD         = Admin1234*
+Server Name = localhost
+Server Port = 4900
+UID         = admin
 ```
 cat ~/.odbcinst.ini
+``````
 
