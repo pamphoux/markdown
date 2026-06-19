@@ -19,7 +19,7 @@ New-Item 'C:\Program Files\nssm\log\stdout\access.log' -type file`
 setx PATH "$env:path;'C:\Program Files\nssm\win64" -m
 
 ## Service
-### nssm.exe --help
+nssm.exe --help
 
 ### Ajouter un service
 nssm.exe install nom_du_service
