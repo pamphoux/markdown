@@ -3,7 +3,7 @@
 ## Installation
 Extraire l'archive dans C:\'Program Files'\nssm
 
-`mkdir 'C:\Program Files\nssm'
+`mkdir 'C:\Program Files\nssm'<br>
 cd C:\Sources
 7z.exe t nssm-2.24-103-gdee49fc.zip
 7z.exe x nssm-2.24-103-gdee49fc.zip -o'C:\Program Files\nssm'
