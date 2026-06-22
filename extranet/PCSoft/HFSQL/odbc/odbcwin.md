@@ -13,6 +13,17 @@ Ces binaires sont également dispo pour Linux. Avant de configurer le connecteur
 Les binaires isql, osql, ... cherchent les fichiers de config dans des endroits définis. Bien qu'est possible d'utiliser des chemins personnalisés, il est fortement recommandé de suivre les recommandations de la norme ODBC.
 De la même manière, l'emplacement des pilotes obei aussi à des normes.
 
+- ~/.odbc.ini
+- ~/.odbcinst.ini
+- /etc/odbc.ini
+- /etc/odbcinst.ini
+
+- /usr/lib/x86_64-linux-gnu/odbc/wd280hfo64.so
+
+### Script complet (installation et configuaration ODBC DSN)
+
+
+
 
 ### odbc.ini
 C'est le fichier de configuration du pilote. On y trouve les sections :
@@ -33,10 +44,19 @@ C'est le fichier de configuration des DSN. On y trouve les sections :
 
 [ODBC Drivers]
 HFSQL=Installed
+FreeTDS=Installed
 
 [HFSQL]
 Description=HFSQL ODBC Driver
 Driver=/usr/lib/x86_64-linux-gnu/odbc/wd280hfo64.so
 
+[FreeTDS]
+Description=TDS driver (Sybase/MS SQL)
+Driver=/usr/lib/x86_64-linux-gnu/odbc/libtdsodbc.so
+Setup=/usr/lib/x86_64-linux-gnu/odbc/libtdsS.so
+CPTimeout=
+CPReuse=
+UsageCount=1
 
+### freetds.conf
 
