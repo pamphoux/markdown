@@ -42,6 +42,7 @@ Les ports suivants sont forwardés depuis le client
 - SQL Server : 49xxx - 61xxx
 
 vi ~/.ssh/config
+```ìni
 Host IONOS
     HostName 85.215.170.153
     User pierre
@@ -51,3 +52,4 @@ Host IONOS
     LocalForward 53389 localhost:53389
     LocalForward 5999 localhost:5900
     LocalForward 61445 localhost:61445
+```
