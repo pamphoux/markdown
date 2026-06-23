@@ -34,3 +34,20 @@ Host IONOS
 Le tunnel en Remote
 
 ### LocalForward
+Les ports suivants sont forwardés depuis le client
+- SSH : 50122
+- Samba : 61445
+- RDP : 53389
+- HFSQL : 54900
+- SQL Server : 49xxx - 61xxx
+
+vi ~/.ssh/config
+Host IONOS
+    HostName 85.215.170.153
+    User pierre
+    Port 51200
+    IdentityFile ~/.ssh/pierre+jan2026@boss
+    LocalForward 54900 localhost:54900
+    LocalForward 53389 localhost:53389
+    LocalForward 5999 localhost:5900
+    LocalForward 61445 localhost:61445
