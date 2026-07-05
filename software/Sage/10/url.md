@@ -1,7 +1,5 @@
 ## Sage SQL Express Partie Serveur
 https://burdpme.sage.com.dl1.ipercast.net/PME/Sage100c/Common/Serveurs/ServExp100c64bits_1102.exe
-https://burdpme.sage.com.dl1.ipercast.net/PME/Sage100c/Common/Serveurs/ServExp100c64bits_902.exe
-
 
 ## Sage SQL Express Partie Client
 https://burdpme.sage.com.dl1.ipercast.net/PME/Sage100c/Common/Serveurs/ServCli100c_1102.exe
