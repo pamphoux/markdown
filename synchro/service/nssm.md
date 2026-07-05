@@ -1,5 +1,7 @@
 # NSSM - Windows Service Manager
 
+https://nssm.cc/ci/nssm-2.24-101-g897c7ad.zip
+
 ## Installation
 Extraire l'archive dans C:\'Program Files'\nssm
 
