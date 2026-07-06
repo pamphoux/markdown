@@ -2,7 +2,7 @@
 https://burdpme.sage.com.dl1.ipercast.net/PME/Sage100c/Common/Serveurs/ServExp100c64bits_1102.exe
 
 ## Sage SQL Express Partie Client
-https://burdpme.sage.com.dl1.ipercast.net/PME/Sage100c/Common/Serveurs/ServCli100c_1102.exe
+https://burdpme.sage.com.dl1.ipercast.net/PME/Sage100c/Common/Serveurs/ServCli100c_1100.exe
 
 ## Supporia
 ### Sage V12 -> Supporia V30
