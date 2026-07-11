@@ -164,16 +164,16 @@ En mode Distant
 
 ```
 [ODBC Data Sources]
-SRVHFSQL = HFSQL
+SRVHFSQL = SRVINTDEV01
 [SRVHFSQL]
-Server Name = 192.168.100.104
-Server Port = 4900
+Server Name = localhost
+Server Port = 54900
 Database = SYME05
 UID = admin
-PWD = Admin1234*
+PWD = RSS@ft#2025!
 ```
 
-iodbctest "DSN=SRVHFSQL;UID=admin;PWD=Admin1234*;Database=SYME05"
+iodbctest "DSN=SRVINTDEV01;UID=admin;PWD=RSS@ft#2025!;Database=SYME05"
 
 ```
 iODBC Demonstration program
