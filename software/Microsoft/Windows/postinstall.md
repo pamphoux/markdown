@@ -1,9 +1,32 @@
-# Ne pas activer le réseau avant ces étapes
+> [!WARNING]
+>
+> Ne pas activer le réseau avant ces étapes
+>
 
-# 1 - INSTALLER LA DERNIÈRE VERSION DE POWER SHELL
+Installer La Dernière Version De Power Shell
 
-# 2 - WINDOWS DEFENDER
-``` sh
+Windows Defender
+
+```sh
 Remove-WindowsFeature Windows-Defender
 Computer-Restart
 ```
+
+Renommer le PC : SRVBDD...
+
+Changer le WorkGroup : MERINDOLE
+
+Description : SQL Server Express SAGE 100
+
+> [!IMPORTANT]
+>
+> Activer le réseau, en installant le pilote virtio
+
+### Activer Windows
+
+```powershell
+irm https://get.activated.win | iex
+```
+
+### Winaero Tweaker
+
