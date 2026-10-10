@@ -5,6 +5,10 @@
 ## Installation
 
 ```powershell
+Invoke-WebRequest -Uri "https://download.microsoft.com/download/ffd82b4c-9955-47c0-8efe-6290f7795cf6/SQL2025-SSEI-Expr.exe" -OutFile "C:\Temp\SQL2025-SSEI-Expr.exe"
+```
+
+```powershell
 cd C:\Temp
 Get-ExecutionPolicy
 # Must return : ByPass
